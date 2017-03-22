@@ -1,0 +1,6 @@
+image: node:6
+
+test:
+  script:
+    - npm install --unsafe-perm --quiet
+    - npm test
